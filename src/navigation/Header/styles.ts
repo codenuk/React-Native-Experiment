@@ -4,7 +4,7 @@ import { colors, fonts } from '../../theme'
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height: '7%',
+    height: '5%',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'flex-end',

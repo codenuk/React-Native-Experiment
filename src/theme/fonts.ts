@@ -19,7 +19,10 @@ const weight: any = {
   normal: 'normal',
 }
 
-const type = {}
+const type = {
+  Kanit: 'Kanit',
+  Neonderthaw: 'Neonderthaw',
+}
 
 export default {
   size,

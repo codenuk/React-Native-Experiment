@@ -16,7 +16,7 @@ const SearchLottery = ({ navigation }: any) => {
   })
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styleGlobal.container}>
       <Header />
       <View style={styleGlobal.wrapper}>
         <View>
