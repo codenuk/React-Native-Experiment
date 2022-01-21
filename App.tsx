@@ -5,13 +5,13 @@ import { NavigationContainer } from '@react-navigation/native'
 import { Home, SearchLottery } from './src/pages'
 import UseFonts from './src/hooks/UseFonts'
 import customTags from './src/theme/customTags'
+import './src/i18n/i18n'
 
 const App = () => {
   customTags()
   const Stack = createNativeStackNavigator()
   const { loadedFonts }: any = UseFonts()
 
-  console.log('loadedFonts', loadedFonts)
   if (!loadedFonts) {
     return null
   }
