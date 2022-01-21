@@ -4,6 +4,7 @@ import { Header } from '../../navigation'
 import styles from './styles'
 import { styleGlobal } from '../../theme'
 import { LinearGradient } from 'expo-linear-gradient'
+import BannerSVG from './images/baner.svg'
 
 const SearchLottery = ({ navigation }: any) => {
   const [digits, setDigits] = useState({
@@ -19,8 +20,8 @@ const SearchLottery = ({ navigation }: any) => {
     <SafeAreaView style={styleGlobal.container}>
       <Header />
       <View style={styleGlobal.wrapper}>
-        <View>
-          <Image style={styles.banner} source={require('./images/baner.png')} />
+        <View style={{ maxHeight: 150 }}>
+          <BannerSVG width="100%" height="100%" />
         </View>
         <LinearGradient
           style={styles.searchBox}

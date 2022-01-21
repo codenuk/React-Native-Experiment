@@ -8,7 +8,7 @@ const Home = ({ navigation }: any) => {
     <SafeAreaView style={styleGlobal.container}>
       <Header />
       <View style={styleGlobal.wrapper}>
-        <Text>Home Page</Text>
+        <Text>Home Page </Text>
         <Button title="Go to SearchLottery" onPress={() => navigation.push('SearchLottery')} />
       </View>
     </SafeAreaView>

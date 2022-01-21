@@ -9,6 +9,9 @@ const styles = StyleSheet.create({
     display: 'flex',
     paddingVertical: 10,
     paddingHorizontal: 10,
+    position: 'relative',
+    width: '100%',
+    height: '100%',
   },
 })
 

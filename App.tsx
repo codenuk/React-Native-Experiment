@@ -11,6 +11,7 @@ const App = () => {
   const Stack = createNativeStackNavigator()
   const { loadedFonts }: any = UseFonts()
 
+  console.log('loadedFonts', loadedFonts)
   if (!loadedFonts) {
     return null
   }
