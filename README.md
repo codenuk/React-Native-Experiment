@@ -92,3 +92,12 @@ yarn add react-native-global-props
 [Reference](https://www.npmjs.com/package/react-native-global-props)
 
 <hr />
+
+## How create Redux
+```bash
+yarn add redux react-redux redux-thunk
+```
+/AwesomeProject/src/stores
+[Reference](https://github.com/codenuk/Redux-Experiment)
+
+<hr />

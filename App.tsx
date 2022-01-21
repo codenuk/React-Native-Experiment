@@ -6,6 +6,8 @@ import { Home, SearchLottery } from './src/pages'
 import UseFonts from './src/hooks/UseFonts'
 import customTags from './src/theme/customTags'
 import './src/i18n/i18n'
+import { Provider } from 'react-redux'
+import store from './src/stores/store'
 
 const App = () => {
   customTags()
@@ -16,18 +18,20 @@ const App = () => {
     return null
   }
   return (
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}
-      >
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="SearchLottery" component={SearchLottery} />
-      </Stack.Navigator>
+    <Provider store={store}>
+      <NavigationContainer>
+        <Stack.Navigator
+          screenOptions={{
+            headerShown: false,
+          }}
+        >
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="SearchLottery" component={SearchLottery} />
+        </Stack.Navigator>
 
-      <StatusBar style="auto" />
-    </NavigationContainer>
+        <StatusBar style="auto" />
+      </NavigationContainer>
+    </Provider>
   )
 }
 
