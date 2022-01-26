@@ -4,6 +4,7 @@ import { colors, fonts, mediaScreen } from '../../theme'
 const styles = StyleSheet.create({
   bannerBox: {
     paddingVertical: mediaScreen(10, 10, 15, 15),
+    height: mediaScreen(150, 150, 300, 500),
   },
   searchBox: {
     borderRadius: 15,
@@ -107,6 +108,13 @@ const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     flexWrap: 'wrap',
+  },
+
+  imageLottery: {
+    width: '48%',
+    height: mediaScreen(88, 88, 200, 200),
+    marginBottom: '2%',
+    marginRight: '2%',
   },
 })
 
