@@ -1,17 +1,16 @@
-import { StyleSheet } from 'react-native'
-import { colors, fonts } from './index'
+import { StyleSheet, StatusBar, Platform } from 'react-native'
+import mediaScreen from './mediaScreen'
 
+console.log('mediaScreen', mediaScreen)
 const styles = StyleSheet.create({
   container: {
-    minHeight: '100%',
+    flex: 1,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
   },
   wrapper: {
-    display: 'flex',
     paddingVertical: 10,
-    paddingHorizontal: 10,
-    position: 'relative',
-    width: '100%',
-    height: '100%',
+    paddingHorizontal: mediaScreen(10, 10, 30, 30),
+    flex: 1,
   },
 })
 

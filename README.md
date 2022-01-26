@@ -101,3 +101,10 @@ yarn add redux react-redux redux-thunk
 [Reference](https://github.com/codenuk/Redux-Experiment)
 
 <hr />
+
+
+## How to run Android Emulator
+- Click AVD Manager
+- Create New Device
+- And After Created Wipe data on your emulator (Clicking dropdown icon in actions column )
+[Reference](https://stackoverflow.com/a/64547951/17992107)

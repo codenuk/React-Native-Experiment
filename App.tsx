@@ -2,7 +2,7 @@ import React from 'react'
 import { StatusBar } from 'expo-status-bar'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { NavigationContainer } from '@react-navigation/native'
-import { Home, SearchLottery } from './src/pages'
+import { Home, SearchLottery, Loading } from './src/pages'
 import UseFonts from './src/hooks/UseFonts'
 import customTags from './src/theme/customTags'
 import './src/i18n/i18n'
@@ -15,7 +15,7 @@ const App = () => {
   const { loadedFonts }: any = UseFonts()
 
   if (!loadedFonts) {
-    return null
+    return <Loading />
   }
   return (
     <Provider store={store}>

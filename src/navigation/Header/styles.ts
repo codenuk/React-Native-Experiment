@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { colors, fonts } from '../../theme'
+import { colors, fonts, mediaScreen } from '../../theme'
 
 const styles = StyleSheet.create({
   container: {
@@ -14,13 +14,13 @@ const styles = StyleSheet.create({
   },
   text: {
     color: colors.black,
-    fontSize: fonts.size.font14,
+    fontSize: mediaScreen(fonts.size.font18, fonts.size.font18, fonts.size.font14, fonts.size.font14),
     fontWeight: fonts.weight.semi,
     textAlign: 'center',
   },
   textHighlight: {
     color: colors.pink,
-    fontSize: fonts.size.font16,
+    fontSize: mediaScreen(fonts.size.font20, fonts.size.font20, fonts.size.font16, fonts.size.font16),
     fontWeight: fonts.weight.bold,
   },
 })

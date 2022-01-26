@@ -9,6 +9,8 @@ const size = {
   font16: Metrics.screenWidht * (16 / 365),
   font18: Metrics.screenWidht * (18 / 365),
   font20: Metrics.screenWidht * (20 / 365),
+  font22: Metrics.screenWidht * (22 / 365),
+  font24: Metrics.screenWidht * (24 / 365),
 }
 
 const weight: any = {
