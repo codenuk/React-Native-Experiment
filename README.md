@@ -51,17 +51,21 @@ yarn start
 yarn add @react-navigation/native @react-navigation/native-stack
 yarn add react-native-screens react-native-safe-area-context
 ```
-
-[Reference](https://reactnative.dev/docs/navigation#installation-and-setup)
 /AwesomeProject/App.tsx
+<br />
+[Reference](https://reactnative.dev/docs/navigation#installation-and-setup)
+
 <hr />
 
 ## How to Add Font Family
 ```bash
 yarn add expo-font
 ```
-[Reference](https://docs.expo.dev/versions/latest/sdk/font/#usage)
+
 /AwesomeProject/src/hooks/UseFonts.ts
+<br />
+[Reference](https://docs.expo.dev/versions/latest/sdk/font/#usage)
+
 <hr />
 
 ## How to import file type svg
@@ -70,9 +74,11 @@ yarn add react-native-svg
 yarn react-native link react-native-svg
 yarn add react-native-svg-transformer
 ```
-[Reference](https://docs.expo.dev/versions/latest/sdk/font/#usage)
 /AwesomeProject/declarations.d.js
 /AwesomeProject/metro.config.js
+<br />
+[Reference](https://docs.expo.dev/versions/latest/sdk/font/#usage)
+
 <hr />
 
 ## How create app multiple languages
@@ -80,6 +86,7 @@ yarn add react-native-svg-transformer
 yarn add i18next react-i18next
 ```
 /AwesomeProject/src/i18n/i18n.ts
+<br />
 [Reference](https://medium.com/@raazthemystery273/how-to-use-i18next-react-i18next-in-react-native-f81ece184cd2)
 
 <hr />
@@ -89,6 +96,7 @@ yarn add i18next react-i18next
 yarn add react-native-global-props
 ```
 /AwesomeProject/src/theme/customTags.ts
+<br />
 [Reference](https://www.npmjs.com/package/react-native-global-props)
 
 <hr />
@@ -98,6 +106,7 @@ yarn add react-native-global-props
 yarn add redux react-redux redux-thunk
 ```
 /AwesomeProject/src/stores
+<br />
 [Reference](https://github.com/codenuk/Redux-Experiment)
 
 <hr />
