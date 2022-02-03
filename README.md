@@ -1,4 +1,4 @@
-# Employee-Compensation-Frontend
+# React Native Experiment
 
 ## Getting Started
 
